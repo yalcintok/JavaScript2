@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    background-color: #FFA500;
+    position: relative;
+    top: 100px;
+}
+
+.middle {
+    position: absolute;
+    top: 100px;
+    left: 125px;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+}
+blockquote {
+    text-align: center;
+    margin-top: 20px; 
+    color: #FFA500;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+.fa {
+    padding: 5px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    left: 40px;
+    top: 90px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #FFA500;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #FFA500;
+    color: white;
+}
+p {
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    color: #FFA500;
+}
+.butn {
+    background: #FFA500;
+    background-image: -webkit-linear-gradient(top, #FFA500, #FFA500);
+    background-image: -moz-linear-gradient(top, #FFA500, #FFA500);
+    background-image: -ms-linear-gradient(top, #FFA500, #FFA500);
+    background-image: -o-linear-gradient(top, #FFA500, #FFA500);
+    background-image: linear-gradient(to bottom, #FFA500, #FFA500);
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-family: Arial;
+    color: white;
+    font-size: 10px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+  
+  .butn:hover {
+    background: #ffdd00;
+    background-image: -webkit-linear-gradient(top, #ffdd00, #ffa200);
+    background-image: -moz-linear-gradient(top, #ffdd00, #ffa200);
+    background-image: -ms-linear-gradient(top, #ffdd00, #ffa200);
+    background-image: -o-linear-gradient(top, #ffdd00, #ffa200);
+    background-image: linear-gradient(to bottom, #ffdd00, #ffa200);
+    text-decoration: none;
+  }
+  .below {
+    position: absolute;
+    top: 315px;
+    left: 270px;
+    margin: auto;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+  }
