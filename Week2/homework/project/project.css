@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Slab', serif;
+}
+.main {
+    margin: auto;
+    text-align: center;
+    background-color: #1E555C;
+    color: white;
+    width: 800px;
+    height: 600px;
+}
+.main h1 {
+    font-size: 80px;
+    padding-top: 50px;
+}
+h2 {
+    font-size: 35px;
+    padding-top: 20px;
+}
+.session {
+    border: 10px solid #14363A;
+    width: 300px;
+    height: 165px;
+    margin-left: 250px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.session span {
+    font-size: 4rem;
+}
+.fas, span {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.fa-play{
+    position: relative;
+    right: 15px;
+}
