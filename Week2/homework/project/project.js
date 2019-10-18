@@ -42,7 +42,7 @@ function minutesDown() {
     return seconds;
   }
   if (seconds <= 0) {
-    seconds = 0;
+    seconds = 300;
   }
 };
 

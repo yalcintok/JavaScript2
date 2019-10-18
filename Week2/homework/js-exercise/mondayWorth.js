@@ -19,13 +19,13 @@
         },
       ];
       
-      function durationsPrice(durEls) {
-        return durEls.duration / 60 * 25;
+      function priceOfHours(durationEl) {
+        return durationEl.duration / 60 * 25;
       };
       
-     let allPrice = mondayTasks.map(durationsPrice);
-     let sumAllPrice = allPrice.reduce(sum);
-     function sum(accumulator, currentValue) {
+     let allPrice = mondayTasks.map(priceOfHours);
+     let sumAllPrice = allPrice.reduce(sumPrices);
+     function sumPrices(accumulator, currentValue) {
         return accumulator + currentValue;
      };
      console.log(sumAllPrice);

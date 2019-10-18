@@ -7,14 +7,14 @@
         { name: 'Tjebbe', age: 22 },
       ];
 
-    function getAges(obj) {
-        return obj.age;
+    function getAges(myArray) {
+        return myArray.age;
     };
     function sumAges (accumulator, currentValue){
         return accumulator + currentValue;
     };
-    function calculateAges (obj, callback) {
-        let ages = obj.map(getAges);
+    function calculateAges (myArray, callback) {
+        let ages = myArray.map(getAges);
         return ages.reduce(callback);
     };
     
